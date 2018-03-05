@@ -1,0 +1,8 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.github.vineethsurabhi.electron-apps
+publish:
+  provider: github
+  token: $$B7rvNTy7ySN7sdXPdLtz$$
+electronVersion: 1.8.2

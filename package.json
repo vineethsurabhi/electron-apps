@@ -1,22 +1,22 @@
 {
   "name": "happ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "app to test electron-updater",
   "main": "index.js",
-  "scripts": {
-    "start": "electron ."
-  },
   "author": "vineeth surabhi",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.8.2"
+    "electron": "^1.8.2",
+    "electron-builder": "^20.2.1"
   },
   "dependencies": {
-    "electron-updater": "^2.20.1"
-  },
-   "repository": "https://github.com/vineethsurabhi/electron-apps",
+    "electron-updater": "^2.18.2"},
+  "repository": "https://github.com/vineethsurabhi/electron-apps",
+
   "scripts": {
-    "build": "build --win",
-    "ship": "build --win -p always"
+    "build": "build ",
+    "ship": "build -p always",
+    "start": "electron ."
   }
+
 }

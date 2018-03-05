@@ -1,4 +1,5 @@
-appId: electron-apps
+appId: com.github.vineethsurabhi.electron-apps
+
 publish:
     provider: github
-token: B7rvNTy7ySN7sdXPdLtz
+    token: $$B7rvNTy7ySN7sdXPdLtz$$
