@@ -1,0 +1,17 @@
+{
+  "name": "happ",
+  "version": "1.0.0",
+  "description": "app to test electron-updater",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "vineeth surabhi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  },
+  "dependencies": {
+    "electron-updater": "^2.20.1"
+  }
+}
