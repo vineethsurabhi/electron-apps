@@ -13,5 +13,10 @@
   },
   "dependencies": {
     "electron-updater": "^2.20.1"
+  },
+   "repository": "https://github.com/vineethsurabhi/electron-apps",
+  "scripts": {
+    "build": "build --win",
+    "ship": "build --win -p always"
   }
 }
